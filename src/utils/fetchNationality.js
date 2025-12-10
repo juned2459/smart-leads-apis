@@ -11,6 +11,7 @@ export const fetchNationality = async (name) => {
     }
 
     const best = res.data.country[0];
+    console.log(best,"api check 1")
     return {
       country: best.country_id,
       probability: best.probability

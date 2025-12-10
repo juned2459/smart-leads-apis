@@ -1,0 +1,26 @@
+{
+  "name": "smart-leads-apis",
+  "version": "1.0.0",
+  "description": "here is backend in node js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "juned",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "node-cron": "^4.2.1"
+  }
+}

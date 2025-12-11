@@ -11,6 +11,10 @@ app.use(cors({
 }));
  
 app.use(express.json({ limit: "16kb" }));
+
+app.get('/', (req, res) => {
+  res.send('welcome to smart leads api server');
+});
 app.use("/api/leads", leadRoutes);
 
 // Start cron

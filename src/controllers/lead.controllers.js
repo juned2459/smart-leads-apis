@@ -27,7 +27,7 @@ export const processBatch = async (req, res) => {
 
 export const allLeads = async (req, res) => {
   try{
-    const leads = await Lead.find();
+    const leads = await Lead.find().sort({ createdAt: -1 });
     res.status(200).json(leads);
   } catch (err) {
     console.error(err);

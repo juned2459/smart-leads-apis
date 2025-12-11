@@ -66,5 +66,5 @@
    }
 
 6. Database Screenshot :-
-   <img width="1517" height="912" alt="image" src="https://github.com/user-attachments/assets/3e6ab7bf-06df-4b0c-b8dd-722581750dc1" />
+   <img width="1486" height="965" alt="image" src="https://github.com/user-attachments/assets/93bc4eac-05fd-4efa-87b2-1c3ea0d99b65" />
 

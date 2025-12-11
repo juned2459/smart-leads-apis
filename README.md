@@ -66,4 +66,5 @@
    }
 
 6. Database Screenshot :- 
-   ![alt text](image-1.png)
+   <img width="1517" height="912" alt="image" src="https://github.com/user-attachments/assets/3e6ab7bf-06df-4b0c-b8dd-722581750dc1" />
+
